@@ -1,0 +1,12 @@
+Vamos dividir em 3 camadas, que devem ser bem definidas.
+
+(BASE) Camada Tabuleiro <-> Camada Jogo de Xadrez <-> Camada de Aplicação (TOPO)
+
+1- Camada de tabuleiro:
+A representação do tabuleiro e suas operações basicas, como retirar, mover peças
+
+2- Camada de Jogo:
+Inteligência do jogo de xadrez, regra que cada mexe de cada vez, como cada peça move.
+
+3- Camada de Aplicação:
+O aplicativo propriamente dito.
